@@ -1,5 +1,4 @@
 # Reaper Z
-![](https://img.shields.io/badge/DoxTracker-Python-blue.svg)
 
 # DISCLAMER: This program is abides by all US laws. However, I am not responsible for any illegal usage of this program
 
