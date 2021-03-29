@@ -20,13 +20,13 @@ print("                               3. MapQuest")
 sel = input("Mode: ")
 if sel == "1":
     webbrowser.open('https://www.google.com/maps/place/'+addy)
-    import reaper
+    quit
 elif sel == "2":
     webbrowser.open('https://www.openstreetmap.org/search?query='+addy)
-    import reaper
+    quit
 elif sel == "3":
     webbrowser.open('https://www.mapquest.com/search/result?query='+addy)
-    import reaper
+    quit
 else:
     os.system('cls')
     print("[+] Syntax Error!")

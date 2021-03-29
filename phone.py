@@ -20,13 +20,13 @@ print("                               3. Google")
 sel = input("Mode: ")
 if sel == "1":
     webbrowser.open('https://www.whitepages.com/phone/'+phone)
-    import reaper
+    quit
 elif sel == "2":
     webbrowser.open('https://canada411.yellowpages.ca/fs/'+phone)
-    import reaper
+    quit
 elif sel == "3":
     webbrowser.open('https://google.com/search?q='+phone)
-    import reaper
+    quit
 else:
     os.system('cls')
     print("[+] Syntax Error!")
